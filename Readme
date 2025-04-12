@@ -1,0 +1,135 @@
+<div style="background: linear-gradient(90deg, #00B8D9, #00ACC1); padding: 40px 20px; border-radius: 15px; text-align: center; animation: fadeIn 2s ease-in-out;">
+<h1 style="text-align:center; color:white; font-size:48px; margin-bottom: 10px">Customer Acquisition Cost Analysis</h1>
+<h3 style="text-align:center; color:#ECEFF1; font-weight:normal; font-size: 20px;">Evaluating Marketing Channel Performance and Efficiency</h3>
+</div>
+
+<style>
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+</style>
+
+<br>
+
+This project conducts an in-depth analysis of customer acquisition cost data to evaluate the performance and efficiency of various marketing channels in 2023. Built using Python in a Jupyter Notebook environment, it leverages libraries like `pandas` and `plotly` for data processing and interactive visualizations.
+
+---
+  
+## Overview
+
+- This project analyzes the CAC dataset to evaluate marketing performance across channels in 2023.
+- We calculate metrics like CAC, Customers per Spend, Conversion Rate, and Break-even Customers,
+- and visualize them to understand marketing efficiency and optimize strategies.
+
+---
+  
+## Dataset Details
+
+- Total Records: 500
+**Note**: Since the dataset is clean; no cleaning steps were performed in the provided code.
+
+---
+  
+## Tools Used
+
+- We used Python with these libraries:
+**Pandas**: For data manipulation and analysis
+**Plotly**: For creating box plots, scatter plots, and bar charts
+
+---
+  
+## Analysis and Results
+
+1. Box Plot: CAC by Marketing Channel
+![CAC by Marketing Channel](assets/Results/CAC.png)
+- Shows CAC distribution across channels (e.g., Email Marketing, Online Ads).
+- **Insight:** Social Media and Email Marketing show relatively lower median CAC, while Referral has the highest median CAC. All channels exhibit high CAC outliers.
+
+2. Scatter Plot: CAC vs New Customers by Channel
+![CAC vs New Customers by Channel](assets/Results/CAC2.png)
+- Examines CAC vs number of new customers, with trendlines.
+- **Insight:** Generally, there's a downward trend, suggesting CAC tends to decrease as the number of new customers acquired increases across all channels. Social Media shows the most significant cost-effectiveness at scale.
+
+3. Scatter Plot: CAC vs Marketing Spend by Channel
+![CAC vs Marketing Spend by Channel](assets/Results/CAC3.png)
+- Analyzes CAC vs marketing spend, with trendlines.
+- **Insight:** A weak upward trend suggests diminishing returns on marketing spend. Online Ads show the most sensitivity to increased spending with a noticeable rise in CAC.
+
+4. Box Plot: Conversion Rate by Marketing Channel
+![Conversion Rate by Marketing Channel](assets/Results/CAC4.png)
+- Shows distribution of "Conversion Rate" (New_Customers / Marketing_Spend * 100).
+- **Insight:** Email Marketing and Referral show higher median conversion rates compared to Online Ads and Social Media. All channels have the potential for high conversion rates, as indicated by outliers.
+
+5. Bar Chart: New Customers per Marketing Spend by Channel
+![New Customers per Marketing Spend by Channel](assets/Results/NC_PM.png)
+- Compares efficiency (New Customers per INR Spent) across channels.
+- **Insight:** Email Marketing is the most efficient in acquiring new customers per INR spent, followed by Online Ads. Social Media is the least efficient based on this metric.
+
+6. Box Plot: Break-even Customers by Channel
+![Break-even Customers by Channel](assets/Results/BE_C.png)
+- Shows Break-even Customers (equals New_Customers).
+- **Insight:** Email Marketing and Referral require a lower median number of new customers to break even, suggesting a faster ROI. Social Media requires the highest.
+
+7. Scatter Plot: CAC vs Conversion Rate by Channel
+![CAC vs Conversion Rate by Channel](assets/Results/CAC_C.png)
+- Explores trade-off between CAC and "Conversion Rate."
+- **Insight:** [Add insight, e.g., do channels with lower CAC have higher efficiency?]
+
+8. Grouped Bar Chart: CAC and New Customers by Channel
+![CAC and New Customers by Channel](assets/Results/CAC_NC.png)
+- Compares CAC and New Customers side by side (CAC: orange, New Customers: green).
+- **Insight:** Referral acquires the highest number of new customers with a moderate CAC. Email Marketing has the highest CAC but still contributes a moderate volume. Social Media has a moderate CAC but the lowest customer acquisition volume.
+
+---
+  
+## Assumptions and Limitations
+
+- Conversion_Rate (New_Customers / Marketing_Spend * 100) is not a standard metric; lacks impressions/clicks.
+- BE_customers equals New_Customers, making it redundant.
+- Assumes one value per Marketing_Channel; box plots may show points, not distributions.
+- Lacks data on time, region, or campaign details for deeper analysis.
+
+---
+  
+## Key Takeaways for Marketing Strategy
+
+- Focus on scaling Referral programs due to high customer acquisition volume and moderate CAC.
+- Optimize Email Marketing to reduce its high CAC while leveraging its efficiency in customer acquisition per spend.
+- Re-evaluate Social Media strategy to improve customer acquisition volume, given its moderate CAC but low output.
+- Consider the "New Customers per INR Spent" metric to guide budget allocation towards the most efficient channels like Email Marketing and Online Ads.
+
+---
+  
+## Future Steps
+
+- To find a dataset with impressions, clicks, or time-based data for proper conversion rates.
+- Analyze regional or campaign-specific performance in a future CAC Analysis Version-2.
+
+---
+  
+## Author
+
+<div align="center">
+  <img src="assets/PYE.SVG" alt="Author Banner" style="width:100%; height:auto; border-radius: 8px;">
+</div>
+
+**Author**: [Pavan Yellathakota]  
+**Date**: MAR 2025  
+
+---
+
+## Contact Information
+
+You can reach out to me through the following channels:
+
+- **Email**: [pavanyellathakota@gmail.com](mailto:pavanyellathakota@gmail.com)
+- **LinkedIn**: [Pavan Yellathakota](https://www.linkedin.com/in/pavanyellathakota/)
+
+For more projects and resources, check out:
+
+- **GitHub**: [Pavan Yellathakota](https://github.com/PavanYellathakota)
+- **Portfolio**: [pye.pages.dev](https://pye.pages.dev)
+
+---
+
