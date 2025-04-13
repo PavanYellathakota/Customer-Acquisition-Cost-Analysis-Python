@@ -1,18 +1,7 @@
-<div style="background: linear-gradient(90deg, #00B8D9, #00ACC1); padding: 40px 20px; border-radius: 15px; text-align: center; animation: fadeIn 2s ease-in-out;">
-<h1 style="text-align:center; color:white; font-size:48px; margin-bottom: 10px">Customer Acquisition Cost Analysis</h1>
-<h3 style="text-align:center; color:#ECEFF1; font-weight:normal; font-size: 20px;">Evaluating Marketing Channel Performance and Efficiency</h3>
-</div>
+# Customer Acquisition Cost Analysis
+### Evaluating Marketing Channel Performance and Efficiency
 
-<style>
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-</style>
-
-<br>
-
-This project conducts an in-depth analysis of customer acquisition cost data to evaluate the performance and efficiency of various marketing channels in 2023. Built using Python in a Jupyter Notebook environment, it leverages libraries like `pandas` and `plotly` for data processing and interactive visualizations.
+- This project conducts an in-depth analysis of customer acquisition cost data to evaluate the performance and efficiency of various marketing channels in 2023. Built using Python in a Jupyter Notebook environment, it leverages libraries like `pandas` and `plotly` for data processing and interactive visualizations.
 
 ---
   
